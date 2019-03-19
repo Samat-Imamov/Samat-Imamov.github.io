@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<link href="images/favco.png" rel="shortcut icon" type="image/png">
+		<title>Samat Imamov | Personal Website</title>
+		<meta name="author" content="Samat Imamov">
+		<meta name="description" content="CV & Other Activities">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:url" content="https://samat-imamov.github.io/" />
+		<meta property="og:title" content="Samat Imamov" />
+		<meta property="og:site_name" content="Samat Imamov" />
+		<meta property="og:description" content="CV & Other Activities" />
+		<meta property="og:image" content="images/logo1.jpg" />
+		<meta property="og:locale" content="en_US" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    
+
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+			document.documentElement.style.overflow = 'hidden';
+    		document.body.scroll = "no";
+		    setTimeout(function(){
+				$('svg').addClass('fade');
+            }, 3500);
+            setTimeout(function() {
+                $('.fullpage').addClass('focus-in');
+                document.getElementsByClassName("intro")[0].style.visibility = "collapse";
+                document.getElementsByClassName("fullpage")[0].style.opacity = "100";
+                document.getElementsByClassName("fullpage")[0].style.visibility = "visible";
+				document.documentElement.style.overflow = 'auto';
+    			document.body.scroll = "yes";
+            }, 5000);
+		});
+    </script>
+<!-- 
+    <script>
+        $('.contact').hover(function() {
+            document.getElementsByClassName("contact")[0].style.transform = "translateX(-5px)";
+            setTimeout(function(){ 
+                document.getElementsByClassName("contact")[0].style.transform = "translateY(-5px)";
+            }, 300);
+        });
+    </script> -->
+
+    <script src="assets/js/jquery.scrollify.js"></script>
+    <script>
+        $(function() {
+            $.scrollify({
+                section : ".section",
+                sectionName : "section-name",
+                interstitialSection : ".footer",
+                easing: "easeOutExpo",
+                scrollSpeed: 1100,
+                offset : 0,
+                scrollbars: true,
+                standardScrollElements: "",
+                setHeights: true,
+                overflowScroll: true,
+                updateHash: true,
+                touchScroll:true,
+                before:function() {},
+                after:function() {},
+                afterResize:function() {},
+                afterRender:function() {}
+
+            });
+        });
+    </script>
+ 
+<!-- <a href="#" id="contacter" class="contact fa-bars"></a>
+<script>
+    $('.contact').click(function(){
+        
+    });
+</script> -->
+
+<!-- <script>
+    $('.contact').bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+       $(this).removeClass("focus-in")  
+    })
+</script>
+<script>
+    $('.contact').click(function(){
+        $(this).addClass("focus-in");
+    });
+</script> -->
+
+    
+
+	<svg class="intro" width="100%" height="1200" viewBox="-380 -80 1000 600">
+		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+				d="M 15.123147,118.90051 41.199935,229.61198 29.736614,111.83162 Z" />
+		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+				d="M 44.265611,216.95193 29.769579,71.287372 76.968422,52.214513 Z" />
+		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+				d="M 43.136587,231.90857 84.622107,59.755047 163.5215,29.764663 169.96653,88.924702 91.507561,218.62978 Z" />	
+		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+				d="m 181.80899,77.510385 2.15095,11.096059 -23.47883,93.295766 -49.12498,14.59446 z" />	
+		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+				d="m 186.69092,95.14104 4.98818,42.79266 -25.96491,42.08351 z" />
+		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+				d="m 179.98948,165.10402 16.98664,-30.03403 3.14091,22.80491 z" />
+    </svg>
+    
+    <!-- <script>
+        $('.ovwu').click(function(){
+            $.scrollify.move("#1");
+        });
+    </script>
+
+    <script>
+        $('.about').click(function(){
+            event.preventDefault();
+            $.scrollify.move("#2");
+            
+        });
+    </script>
+
+    <script>
+        $('.ed').click(function(){
+            $.scrollify.move("#3");
+        });
+    </script>
+
+    <script>
+        $('.prj').click(function(){
+            $.scrollify.move("#4");
+        });
+    </script>
+
+    <script>
+        $('.cntct').click(function(){
+            $.scrollify.move("#5");
+        });
+    </script> -->
+    
+    <div class="fullpage">
+        <body>
+            <header class="section first" data-section-name="tooverview" id="overview">
+                <div id="banner">
+                        <div class="menu">
+                            <a href="#aboutme" class="about"><i class="fas fa-user-circle"></i> About Me</a>
+                            <a href="#education" class="ed"><i class="fas fa-graduation-cap"></i> Education</a>
+                            <a href="#projects" class="prj"><i class="fas fa-drafting-compass"></i> Projects</a>
+                            <a href="#contactme" class="cntct"><i class="fas fa-handshake"></i> Contact Me</a>
+                        </div>
+                    <h1><i class="icon-e18r4"></i> Overview</h1>
+                </div>
+                <div class="contents">
+                    <h1 style="font-size:5em;margin-top:-2%">Hello!</h1>
+                    <h1 style="font-size:1.5em;">My name is</h1>
+                    <h2 style="font-size:5em;">Samat Imamov</h2>
+                    <h1 style="font-size:2em;">I am a Computer Science Senior.</h1>
+                    <h2 style="font-size:2em;margin-top:2%;">I also design and develop things related to
+                                                            interfaces and user experiences.</h2>
+                </div>
+            </header>
+            <header class="section second" data-section-name="toaboutme" id="aboutme">
+                <div id="banner">
+                    <div class="menu">
+                        <a href="#overview" class="ovwu"><i class="icon-e18r4"></i> Overview</a>
+                        <a href="#education" class="ed"><i class="fas fa-graduation-cap"></i> Education</a>
+                        <a href="#projects" class="prj"><i class="fas fa-drafting-compass"></i> Projects</a>
+                        <a href="#contactme" class="cntct"><i class="fas fa-handshake"></i> Contact Me</a>
+                    </div>
+                    <h1><i class="fas fa-user-circle"></i>   About Me</h1>
+                </div>
+                <div class="contents">
+                    <img class="avatar" src="images/profile.jpg" alt="Avatar">
+    
+                </div>
+            </header>
+            <header class="section third" data-section-name="toeducation" id="education">
+                <div id="banner">
+                        <div class="menu">
+                            <a href="#overview" class="ovwu"><i class="icon-e18r4"></i> Overview</a>
+                            <a href="#aboutme" class="about"><i class="fas fa-user-circle"></i> About Me</a>
+                            <a href="#projects" class="prj"><i class="fas fa-drafting-compass"></i> Projects</a>
+                            <a href="#contactme" class="cntct"><i class="fas fa-handshake"></i> Contact Me</a>
+                        </div>
+                        <h1><i class="fas fa-graduation-cap"></i> Education</h1>
+                </div>
+                <div class="contents">
+                    <div class="sch">
+					    <div class="jsr">
+                            <img src="images/JSR.png" alt="JSR" title="JSR" class="image" />
+						    <p>A.S. in Computer Science<br />2015-2017</p>			
+					    </div>		
+					    <div class="vt">
+						    <img src="images/VT.png" alt="VT" title="VT" class="image" />
+						    <p>B.S. in Computer Science<br />Minor in Music Technology<br />2017-2020</p>	
+			    	    </div>
+                    </div>
+                </div>
+            </header>
+            <header class="section fourth" data-section-name="toprojects" id="projects">
+                    <div id="banner">
+                            <div class="menu">
+                                <a href="#overview" class="ovwu"><i class="icon-e18r4"></i> Overview</a>
+                                <a href="#aboutme" class="about"><i class="fas fa-user-circle"></i> About Me</a>
+                                <a href="#education" class="ed"><i class="fas fa-graduation-cap"></i> Education</a>
+                                <a href="#contactme" class="cntct"><i class="fas fa-handshake"></i> Contact Me</a>
+                            </div>
+                            <h1><i class="fas fa-drafting-compass"></i>  Projects</h1>
+                    </div>
+                    <div class="contents">
+    
+    
+                    </div>
+                </header>
+
+                <header class="section fifth" data-section-name="tocontactme" id="contactme">
+                        <div id="banner">
+                            <div class="menu">
+                                <a href="#overview" class="ovwu"><i class="icon-e18r4"></i> Overview</a>
+                                <a href="#aboutme" class="about"><i class="fas fa-user-circle"></i> About Me</a>
+                                <a href="#education" class="ed"><i class="fas fa-graduation-cap"></i> Education</a>
+                                <a href="#projects" class="prj"><i class="fas fa-drafting-compass"></i> Projects</a>
+                            </div>
+                            <h1><i class="fas fa-handshake"></i>   Contact Me</h1>
+                        </div>
+                        <div class="contents">
+            
+
+                        </div>
+                    </header>
+
+            <header class="footer">
+                <p>2019 • Samat Imamov</p>
+            </header>
+        </body>
+    </div>
+</html>

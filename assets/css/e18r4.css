@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'e18r4';
+  src: url('../../assets/fonts/e18r4/e18r4.eot?51270733');
+  src: url('../../assets/fonts/e18r4/e18r4.eot?51270733#iefix') format('embedded-opentype'),
+       url('../../assets/fonts/e18r4/e18r4.woff2?51270733') format('woff2'),
+       url('../../assets/fonts/e18r4/e18r4.woff?51270733') format('woff'),
+       url('../../assets/fonts/e18r4/e18r4.ttf?51270733') format('truetype'),
+       url('../../assets/fonts/e18r4/e18r4.svg?51270733#e18r4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "e18r4";
+  font-style: normal;
+  font-weight: normal;
+  speak-as: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  margin-left: 1px;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  font-size: 120%;
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-e18r4:before { content: '\0e18'; } /* 'ธ' */

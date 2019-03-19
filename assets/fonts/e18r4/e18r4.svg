@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+<font id="e18r4" horiz-adv-x="1000" >
+<font-face font-family="e18r4" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="e18r4" unicode="&#xe18;" d="M1 409l128-547-56 582z m144-485l-72 720 233 94z m-6-74l205 851 390 148 32-292-388-641z m685 763l11-55-116-460-243-73z m24-87l25-211-128-208z m-33-345l84 148 16-113z" horiz-adv-x="915" />
+</font>
+</defs>
+</svg>
