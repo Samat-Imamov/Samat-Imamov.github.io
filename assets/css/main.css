@@ -149,12 +149,12 @@ html, body, svg, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b
 
 body {
 	position: relative;
-	background: linear-gradient(269deg, rgb(10, 10, 80), rgb(10, 20, 90), rgb(20, 10, 70), rgb(20, 20, 80), rgb(10, 10, 90));
+	background: linear-gradient(269deg, rgb(10, 10, 80), rgb(10, 20, 90), rgb(20, 10, 80), rgb(0, 0, 70), rgb(10, 10, 90));
 background-size: 1000% 1000%;
--webkit-animation: AnimationName 20s ease infinite;
--moz-animation: AnimationName 20s ease infinite;
--o-animation: AnimationName 20s ease infinite;
-animation: AnimationName 20s ease infinite;
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+-o-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
 	-webkit-font-smoothing: antialiased;
 }
 
