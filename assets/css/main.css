@@ -126,25 +126,47 @@ html, body, svg, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b
 	vertical-align: baseline;
 }
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 body {
 	position: relative;
-	background-color: #06005a;
-	background-image: url("../../images/bg.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 0;
+	background: linear-gradient(269deg, rgb(10, 10, 80), rgb(10, 20, 90), rgb(20, 10, 70), rgb(20, 20, 80), rgb(30, 30, 70));
+background-size: 1000% 1000%;
+-webkit-animation: AnimationName 20s ease infinite;
+-moz-animation: AnimationName 20s ease infinite;
+-o-animation: AnimationName 20s ease infinite;
+animation: AnimationName 20s ease infinite;
 	-webkit-font-smoothing: antialiased;
 }
 
 svg {
 	z-index: 20;
 	position: fixed;
-	background-image: url("../../images/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 0;
-	background-attachment: fixed;
+	background: linear-gradient(269deg, rgb(10, 10, 80), rgb(10, 20, 90), rgb(20, 10, 70), rgb(20, 20, 80), rgb(30, 30, 70));
+background-size: 1000% 1000%;
+-webkit-animation: AnimationName 20s ease infinite;
+-moz-animation: AnimationName 20s ease infinite;
+-o-animation: AnimationName 20s ease infinite;
+animation: AnimationName 20s ease infinite;
 }
 
 .fullpage {
@@ -303,23 +325,6 @@ i {
 	transition: color 0.2s;
 }
 
-#banner .menu a:before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 1.5px;
-	bottom: -5px;
-	left: 0;
-	border-bottom: solid 2px rgb(176, 196, 235);
-	margin-top: -5px;
-	visibility: hidden;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-	text-align: center;
-}
-
 #banner .menu a:after {
 	content: "";
 	position: absolute;
@@ -339,12 +344,6 @@ i {
 
 #banner .menu a:hover {
 	color: rgb(176, 196, 235);
-}
-
-#banner .menu a:hover:before {
-	visibility: visible;
-	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
 }
 
 #banner .menu a:hover:after {
