@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<link href="images/favco.png" rel="shortcut icon" type="image/png">
+		<link href="assets/images/favco.png" rel="shortcut icon" type="image/png">
 		<title>Samat Imamov | Personal Website</title>
 		<meta name="author" content="Samat Imamov">
 		<meta name="description" content="Samat Imamov • Personal Website">
@@ -12,406 +12,110 @@
 		<meta property="og:title" content="Samat Imamov" />
 		<meta property="og:site_name" content="Samat Imamov" />
 		<meta property="og:description" content="Samat Imamov • Personal Website" />
-		<meta property="og:image" content="images/logo1.jpg" />
+		<meta property="og:image" content="images/logo.png" />
 		<meta property="og:locale" content="en_US" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-    </head>
-    
+	</head>
 
-    <script src="assets/js/jquery.min.js"></script>
+	
+	<script src="assets/js/jquery.min.js"></script>
 
-    <script>
-        $(document).ready(function() {
+	<script>
+		$(document).ready(function() {
 			document.documentElement.style.overflow = 'hidden';
-    		document.body.scroll = "no";
-		    setTimeout(function(){
-				$('svg').addClass('fade');
-            }, 3500);
-            setTimeout(function() {
-                $('.fullpage').addClass('focus-in');
-                document.getElementsByClassName("intro")[0].style.visibility = "collapse";
-                document.getElementsByClassName("fullpage")[0].style.opacity = "100";
-                document.getElementsByClassName("fullpage")[0].style.visibility = "visible";
-				document.documentElement.style.overflow = 'auto';
-    			document.body.scroll = "yes";
-            }, 5000);
+			document.body.scroll = "no";
+			setTimeout(function(){
+				$('.path-1').animate({
+					opacity: 0,
+					}, "fast");
+				}, 1550);
+			setTimeout(function(){
+				$('.path-2').animate({
+					opacity: 0,
+					}, "fast");
+				}, 1750);
+			setTimeout(function(){
+				$('.path-3').animate({
+					opacity: 0,
+					}, "fast");
+				}, 1950);
+			setTimeout(function(){
+				$('.path-4').animate({
+					opacity: 0,
+					}, "fast");
+				}, 2150);
+			setTimeout(function(){
+				$('.path-5').animate({
+					opacity: 0,
+					}, "fast");
+				}, 2350);
+			setTimeout(function(){
+				$('.path-6').animate({
+					opacity: 0,
+					}, "fast");
+				}, 2550);
+			setTimeout(function() {
+				document.getElementsByClassName("intro")[0].style.visibility = "collapse";
+				document.getElementsByClassName("main-page")[0].style.opacity = "100";
+				document.getElementsByClassName("main-page")[0].style.visibility = "visible";
+			}, 3300);
+			setTimeout(function() {
+				$('h1').addClass('FromTop');
+			}, 3300);
+			setTimeout(function() {
+				$('.p1').addClass('FromTop');
+			}, 3500);
+			setTimeout(function() {
+				$('.p2').addClass('FromTop');
+			}, 3700);
+			setTimeout(function() {
+				$('.info').addClass('FromTop');
+			}, 3900);
+			setTimeout(function() {
+				$('.avatar').addClass('FromRight');
+			}, 4100);
 		});
-    </script>
-<!-- 
-    <script>
-        $('.contact').hover(function() {
-            document.getElementsByClassName("contact")[0].style.transform = "translateX(-5px)";
-            setTimeout(function(){ 
-                document.getElementsByClassName("contact")[0].style.transform = "translateY(-5px)";
-            }, 300);
-        });
-    </script> -->
+	</script>
+	
+	<div class="intro" >
+    	<svg width="100%" height="1200" viewBox="-280 -80 800 500">
+			<path class="path-1" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+					d="M 15.123147,118.90051 41.199935,229.61198 29.736614,111.83162 Z" />
+			<path class="path-2" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+					d="M 44.265611,216.95193 29.769579,71.287372 76.968422,52.214513 Z" />
+			<path class="path-3" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+					d="M 43.136587,231.90857 84.622107,59.755047 163.5215,29.764663 169.96653,88.924702 91.507561,218.62978 Z" />	
+			<path class="path-4" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+					d="m 181.80899,77.510385 2.15095,11.096059 -23.47883,93.295766 -49.12498,14.59446 z" />	
+			<path class="path-5" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+					d="m 186.69092,95.14104 4.98818,42.79266 -25.96491,42.08351 z" />
+			<path class="path-6" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
+					d="m 179.98948,165.10402 16.98664,-30.03403 3.14091,22.80491 z" />
+		</svg>
+	</div>
+	<div class="main-page">
+		<body>
+			<div>
+				<img class="avatar" src="assets/images/profile.jpg">
+				<h1 class="name"><b>Samat Imamov</b></h1>
+				<p class="p1">
+					I am pursuing a B.S. in Computer Science with a minor in Music Technology at Virginia Tech. <br>
+					My intended graduation is in May 2020. I am looking for full-time opportunities as a Software Engineer.
+				</p><br>
+				<p class="p2">
+					My passions are Augmented and Virtual Realities, Human-Computer Interaction, User Experience and<br>User Interface design, and videogame development. 
+					You can learn more about me below.<br> For any possible inquiries, feel free to contact me at <a href="mailto:samat@vt.edu" style="font-weight:700">samat@vt.edu</a>.
+				</p>
 
-    <script src="assets/js/jquery.scrollify.js"></script>
-    <script>
-        $(function() {
-            $.scrollify({
-                section : ".section",
-                sectionName : "section-name",
-                interstitialSection : ".footer",
-                easing: "easeOutExpo",
-                scrollSpeed: 1100,
-                offset : 0,
-                scrollbars: true,
-                standardScrollElements: "",
-                setHeights: true,
-                overflowScroll: true,
-                updateHash: true,
-                touchScroll:true,
-                before:function() {},
-                after:function() {},
-                afterResize:function() {},
-                afterRender:function() {}
+				<ul class="info">
+					<li><a href="https://www.linkedin.com/in/samat-imamov/"><i class="fab fa-linkedin fa-3x"></i></a></li>
+					<li><a href="assets/documents/resume.pdf"><i class="fas fa-file fa-3x"></i></a></li>
+					<li><a href="mailto:samat@vt.edu"><i class="fas fa-envelope fa-3x"></i></a></li>
+				</ul>
+			</div>
+			
+		</body>
+	</div>
 
-            });
-        });
-    </script>
 
-<script src="assets/js/project_gallery.js"></script>
- 
-<!-- <a href="#" id="contacter" class="contact fa-bars"></a>
-<script>
-    $('.contact').click(function(){
-        
-    });
-</script> -->
-
-<!-- <script>
-    $('.contact').bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
-       $(this).removeClass("focus-in")  
-    })
-</script>
-<script>
-    $('.contact').click(function(){
-        $(this).addClass("focus-in");
-    });
-</script> -->
-
-    
-
-	<svg class="intro" width="100%" height="1200" viewBox="-380 -80 1000 600">
-		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
-				d="M 15.123147,118.90051 41.199935,229.61198 29.736614,111.83162 Z" />
-		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
-				d="M 44.265611,216.95193 29.769579,71.287372 76.968422,52.214513 Z" />
-		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
-				d="M 43.136587,231.90857 84.622107,59.755047 163.5215,29.764663 169.96653,88.924702 91.507561,218.62978 Z" />	
-		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
-				d="m 181.80899,77.510385 2.15095,11.096059 -23.47883,93.295766 -49.12498,14.59446 z" />	
-		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
-				d="m 186.69092,95.14104 4.98818,42.79266 -25.96491,42.08351 z" />
-		<path class="path" fill="none" stroke="#B0C4EB" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"
-				d="m 179.98948,165.10402 16.98664,-30.03403 3.14091,22.80491 z" />
-    </svg>
-    
-    <!-- <script>
-        $('.ovwu').click(function(){
-            $.scrollify.move("#1");
-        });
-    </script>
-
-    <script>
-        $('.about').click(function(){
-            event.preventDefault();
-            $('#aboutme').addClass('focus-in');
-            
-        });
-    </script>
-
-    <script>
-        $('.ed').click(function(){
-            $.scrollify.move("#3");
-        });
-    </script>
-
-    <script>
-        $('.prj').click(function(){
-            $.scrollify.move("#4");
-        });
-    </script>
-
-    <script>
-        $('.cntct').click(function(){
-            $.scrollify.move("#5");
-        });
-    </script> -->
-    
-    <div class="fullpage">
-        <body>
-            <header class="section first" data-section-name="tooverview" id="overview">
-                <div id="banner">
-                        <div class="menu">
-                            <a href="#aboutme" class="about"><i class="fas fa-user-circle"></i> About Me</a>
-                            <a href="#education" class="ed"><i class="fas fa-graduation-cap"></i> Education</a>
-                            <a href="#projects" class="prj"><i class="fas fa-drafting-compass"></i> Projects</a>
-                            <a href="#contactme" class="cntct"><i class="fas fa-handshake"></i> Contact Me</a>
-                        </div>
-                    <h1><i class="icon-e18r4"></i> Overview</h1>
-                </div>
-                <div class="contents">
-                    <h1 style="font-size:5em;margin-top:1%">Hello!</h1>
-                    <h1 style="font-size:1.5em;">My name is</h1>
-                    <h2 style="font-size:5em;">Samat Imamov</h2>
-                    <h1 style="font-size:2em;">I am a Computer Science Senior.</h1>
-                    <h2 style="font-size:2em;margin-top:2%;">I also design and develop things related to
-                                                            interfaces and user experiences.</h2>
-                </div>
-            </header>
-            <header class="section second" data-section-name="toaboutme" id="aboutme">
-                <div id="banner">
-                    <div class="menu">
-                        <a href="#overview" class="ovwu"><i class="icon-e18r4"></i> Overview</a>
-                        <a href="#education" class="ed"><i class="fas fa-graduation-cap"></i> Education</a>
-                        <a href="#projects" class="prj"><i class="fas fa-drafting-compass"></i> Projects</a>
-                        <a href="#contactme" class="cntct"><i class="fas fa-handshake"></i> Contact Me</a>
-                    </div>
-                    <h1><i class="fas fa-user-circle"></i>   About Me</h1>
-                </div>
-                <div class="contents">
-                    <img class="avatar" src="images/profile.jpg" alt="Avatar">
-    
-                </div>
-            </header>
-            <header class="section third" data-section-name="toeducation" id="education">
-                <div id="banner">
-                        <div class="menu">
-                            <a href="#overview" class="ovwu"><i class="icon-e18r4"></i> Overview</a>
-                            <a href="#aboutme" class="about"><i class="fas fa-user-circle"></i> About Me</a>
-                            <a href="#projects" class="prj"><i class="fas fa-drafting-compass"></i> Projects</a>
-                            <a href="#contactme" class="cntct"><i class="fas fa-handshake"></i> Contact Me</a>
-                        </div>
-                        <h1><i class="fas fa-graduation-cap"></i> Education</h1>
-                </div>
-                <div class="contents">
-                    <div class="sch">
-					    <div class="jsr">
-                            <img src="images/JSR.png" alt="JSR" title="JSR" class="image" />
-						    <p>A.S. in Computer Science<br />2015-2017</p>			
-					    </div>		
-					    <div class="vt">
-						    <img src="images/VT.png" alt="VT" title="VT" class="image" />
-						    <p>B.S. in Computer Science<br />Minor in Music Technology<br />2017-2020</p>	
-			    	    </div>
-                    </div>
-                    <div class="desc">
-                        <h2></h2>
-                    </div>
-                </div>
-            </header>
-            <header class="section fourth" data-section-name="toprojects" id="projects">
-                <div id="banner">
-                    <div class="menu">
-                        <a href="#overview" class="ovwu"><i class="icon-e18r4"></i> Overview</a>
-                        <a href="#aboutme" class="about"><i class="fas fa-user-circle"></i> About Me</a>
-                        <a href="#education" class="ed"><i class="fas fa-graduation-cap"></i> Education</a>
-                        <a href="#contactme" class="cntct"><i class="fas fa-handshake"></i> Contact Me</a>
-                    </div>
-                    <h1><i class="fas fa-drafting-compass"></i>  Projects</h1>
-                </div>
-                <div class="contents">
-                    
-                    <div class="cd-projects-wrapper">
-                        <ul class="cd-slider">
-                            <li class="current">
-                                <a href="#0" class="1st">
-                                    <i class="fas fa-user-astronaut"></i>
-                                    <div class="project-info">
-                                        <h1>NASA S.U.I.T.S.</h1>
-                                        <h2>HoloLens • GUI</h2>
-                                    </div>
-                                </a>
-                            </li>
-                
-                            <li>
-                                <a href="#0" class="2nd">
-                                    <i class="fas fa-poll-h"></i>
-                                    <div class="project-info">
-                                        <h1>Survey Visualizer</h1>
-                                        <h2>Java • Data</h2>
-                                    </div>
-                                </a>
-                            </li>
-                
-                            <li>
-                                <a href="#0" class="3rd">
-                                    <i class="fas fa-terminal"></i>
-                                    <div class="project-info">
-                                        <h1>Extensible shell</h1>
-                                        <h2>C • Software Engineering</h2>
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#0" class="4th">
-                                    <i class="fas fa-file-export"></i>
-                                    <div class="project-info">
-                                        <h1>External Sort</h1>
-                                        <h2>Java • Sorting</h2>
-                                    </div>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a href="#0" class="5th">
-                                    <i class="fas fa-bacon"></i>
-                                    <div class="project-info">
-                                        <h1>Threadpool</h1>
-                                        <h2>C • Software Engineering</h2>
-                                    </div>
-                                </a>
-                            </li>
-                
-                            <li>
-                                <a href="#0" class="6th">
-                                    <i class="fas fa-mobile-alt"></i>
-                                    <div class="project-info">
-                                        <h1>Minder</h1>
-                                        <h2>Mobile App • Concept</h2>
-                                    </div>
-                                </a>
-                            </li>
-                
-                            <li>
-                                <a href="#0" class="7th">
-                                    <i class="far fa-object-group"></i>
-                                    <div class="project-info">
-                                        <h1>class Code()</h1>
-                                        <h2>Graphics • Design</h2>
-                                    </div>
-                                </a>
-                            </li>
-                
-                            <li>
-                                <a href="#0" class="8th">
-                                    <i class="fas fa-dice"></i>
-                                    <div class="project-info">
-                                        <h1>Trophy Trouble</h1>
-                                        <h2>Card Game • Development</h2>
-                                    </div>
-                                </a>
-                            </li>
-                
-                            <li>
-                                <a href="#0" class="9th">
-                                    <i class="fas fa-gamepad"></i>
-                                    <div class="project-info">
-                                        <h1>Folk</h1>
-                                        <h2>Video game • Development</h2>
-                                    </div>
-                                </a>
-                            </li>
-                
-                            <li>
-                                <a href="#0" class="10th">
-                                    <i class="fas fa-headphones"></i>
-                                    <div class="project-info">
-                                        <h1>Elytra</h1>
-                                        <h2>Music • Production</h2>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                
-                        <ul class="cd-slider-navigation">
-                            <li><a href="#0" class="prev inactive"><i class="fas fa-chevron-right"></i></a></li>
-                            <li><a href="#0" class="next"><i class="fas fa-chevron-right"></i></a></li>
-                        </ul> <!-- .cd-slider-navigation -->
-                    </div> <!-- .cd-projects-wrapper -->
-                
-                    <div class="cd-project-content" id="p1">
-                        <h2>NASA S.U.I.T.S.</h2>
-                        
-                        <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                    </div>
-
-                    <div class="cd-project-content" id="p2">
-                            <h2>Survey Visualizer</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p3">
-                            <h2>Extensible Shell</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p4">
-                            <h2>Javascript Grammar</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p5">
-                            <h2>External Sort</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p6">
-                            <h2>Threadpool</h2>
-                           
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p7">
-                            <h2>Minder</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p8">
-                            <h2>class Code()</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p9">
-                            <h2>Trophy Trouble</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p10">
-                            <h2>Folk</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                        <div class="cd-project-content" id="p11">
-                            <h2>Elytra</h2>
-                            
-                            <a href="#0" class="close"><i class="fas fa-times"></i></a>
-                        </div>
-
-                </div>
-            </header>
-
-            <header class="section fifth" data-section-name="tocontactme" id="contactme">
-                <div id="banner">
-                    <div class="menu">
-                        <a href="#overview" class="ovwu"><i class="icon-e18r4"></i> Overview</a>
-                        <a href="#aboutme" class="about"><i class="fas fa-user-circle"></i> About Me</a>
-                        <a href="#education" class="ed"><i class="fas fa-graduation-cap"></i> Education</a>
-                        <a href="#projects" class="prj"><i class="fas fa-drafting-compass"></i> Projects</a>
-                    </div>
-                    <h1><i class="fas fa-handshake"></i>   Contact Me</h1>
-                </div>
-                <div class="contents">
-    
-
-                </div>
-            </header>
-
-            <header class="footer">
-                <p>2019 • Samat Imamov</p>
-            </header>
-        </body>
-    </div>
 </html>
