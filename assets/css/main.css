@@ -241,6 +241,10 @@ p {
   }
 
   .p1 {
-    margin-top: 10%;
+    margin-top: 5%;
+  }
+
+  li a {
+    display: inline;
   }
 }
