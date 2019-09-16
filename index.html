@@ -58,6 +58,8 @@
 				document.getElementsByClassName("intro")[0].style.visibility = "collapse";
 				document.getElementsByClassName("main-page")[0].style.opacity = "100";
 				document.getElementsByClassName("main-page")[0].style.visibility = "visible";
+				document.documentElement.style.overflow = 'auto';
+				document.body.scroll = "yes";
 			}, 3300);
 			setTimeout(function() {
 				$('h1').addClass('FromTop');
