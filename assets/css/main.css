@@ -219,10 +219,12 @@ p {
   opacity: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
 
   svg {
     margin-top: -40%;
+    width: 140%;
+    margin-left: -20%;
   }
 
   .avatar {
@@ -230,7 +232,7 @@ p {
     float: right;
     box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 1);
     border-radius: 50%;
-    border: 5px solid #c7cfff;
+    border: 2px solid #c7cfff;
     width: 25%;
     margin-top: 10%;
   }
@@ -262,6 +264,7 @@ p {
 
   li {
     float: right;
+    font-size: 80%;
   }
 
 }
