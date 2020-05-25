@@ -110,7 +110,7 @@ html {
 }
 
 svg {
-  z-index: 20;
+  z-index: 1;
   position: fixed;
 }
 
@@ -174,7 +174,7 @@ li a {
 }
 
 h1 {
-  margin-left: 10%;
+  margin-left: 7%;
   padding-top: 12%;
   font-size: 500%;
   font-family: raleway;
@@ -192,7 +192,7 @@ p {
 }
 
 .p2 {
-  margin-top: 36px;
+  margin-top: 27px;
   opacity: 0;
 }
 
@@ -212,7 +212,7 @@ p {
 .info {
   position: relative;
   margin-left: 9%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .linkedin {
@@ -242,11 +242,11 @@ p {
     border-radius: 50%;
     border: 2px solid #c7cfff;
     width: 25%;
-    margin-top: 10%;
+    margin-top: 3%;
   }
 
   h1 {
-    margin-left:5%;
+    margin-left: 3%;
     padding-top: 17%;
     font-size: 300%;
     font-family: raleway;
@@ -259,11 +259,15 @@ p {
   }
 
   .p1 {
-    margin-top: 20%;
+    margin-top: 17%;
+  }
+
+  .p2 {
+    margin-top: 0%;
   }
 
   .info {
-    margin-top: 10%;
+    margin-top: 2%;
   }
 
   .p1 br {
@@ -278,7 +282,7 @@ p {
   @media (max-width: 768px) {
     svg {
       width: 140%;
-      margin-top: -85%;
+      margin-top: -75%;
       margin-left: -18%;
     }
   
@@ -289,11 +293,11 @@ p {
       border-radius: 50%;
       border: 2px solid #c7cfff;
       width: 30%;
-      margin-top: 10%;
+      margin-top: 3%;
     }
   
     h1 {
-      margin-left:5%;
+      margin-left: 3%;
       padding-top: 17%;
       font-size: 200%;
       font-family: raleway;
@@ -306,11 +310,15 @@ p {
     }
   
     .p1 {
-      margin-top: 20%;
+      margin-top: 17%;
+    }
+
+    .p2 {
+      margin-top: 0%;
     }
   
     .info {
-      margin-top: 10%;
+      margin-top: 2%;
     }
   
     p br {
