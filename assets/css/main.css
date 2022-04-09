@@ -157,6 +157,7 @@ svg {
 }
 
 li {
+  opacity: 0;
   float: left;
   text-align: center;
   padding-right: 40px;
@@ -180,9 +181,12 @@ h1 {
   font-family: raleway;
 }
 
+.description {
+  margin-left: 10%;
+}
+
 p {
   width: 70%;
-  margin-left: 10%;
   font-family: segoesl;
   font-size: 150%;
 }
@@ -196,7 +200,6 @@ p {
   opacity: 0;
 }
 
-
 .avatar {
   position: relative;
 	float: right;
@@ -209,22 +212,23 @@ p {
   opacity: 0;
 }
 
-.info {
+.buttons {
   position: relative;
-  margin-left: 9%;
   margin-top: 3%;
 }
 
 .linkedin {
-  opacity: 0;
+  font-size: 100%;
 }
 
 .resume {
-  opacity: 0;
+  font-size: 88%;
+  margin-top: 2.5px;
 }
 
 .mail {
-  opacity: 0;
+  font-size: 118%;
+  margin-top: -3.5px;
 }
 
 @media (max-width: 1024px) {
@@ -248,14 +252,17 @@ p {
   h1 {
     margin-left: 3%;
     padding-top: 17%;
-    font-size: 300%;
+    font-size: 250%;
     font-family: raleway;
   }
 
-  p { 
-    font-size: 120%;
-    width: 85%;
+  .description {
     margin-left: 5%;
+  }
+
+  p { 
+    font-size: 110%;
+    width: 85%;
   }
 
   .p1 {
@@ -266,17 +273,14 @@ p {
     margin-top: 0%;
   }
 
-  .info {
+  .buttons {
     margin-top: 2%;
+    float: right;
+    font-size: 80%;
   }
 
   .p1 br {
     display: none;
-  }
-
-  ul {
-    float: right;
-    font-size: 80%;
   }
 
   @media (max-width: 768px) {
@@ -299,14 +303,17 @@ p {
     h1 {
       margin-left: 3%;
       padding-top: 17%;
-      font-size: 200%;
+      font-size: 150%;
       font-family: raleway;
+    }
+
+    .description {
+      margin-left: 5%;
     }
   
     p { 
-      font-size: 120%;
+      font-size: 100%;
       width: 85%;
-      margin-left: 5%;
     }
   
     .p1 {
@@ -317,17 +324,14 @@ p {
       margin-top: 0%;
     }
   
-    .info {
+    .buttons {
       margin-top: 2%;
+      float: right;
+      font-size: 80%;
     }
   
     p br {
       display: none;
-    }
-  
-    ul {
-      float: right;
-      font-size: 80%;
     }
   }
 
